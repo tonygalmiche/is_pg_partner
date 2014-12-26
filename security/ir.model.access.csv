@@ -1,0 +1,10 @@
+id,name,model_id:id,group_id:id,perm_read,perm_write,perm_create,perm_unlink
+access_is_secteur_activite_manager,is.secteur.activite,model_is_secteur_activite,group_is_client_fournisseur_plastigray,1,1,1,1
+access_is_port_incoterm_manager,is.port.incoterm,model_is_port_incoterm,group_is_client_fournisseur_plastigray,1,1,1,1
+access_is_segment_achat_manager,is.segment.achat,model_is_segment_achat,group_is_client_fournisseur_plastigray,1,1,1,1
+access_is_famille_achat_manager,is.famille.achat,model_is_famille_achat,group_is_client_fournisseur_plastigray,1,1,1,1
+access_is_site_manager,is.site,model_is_site,group_is_client_fournisseur_plastigray,1,1,1,1
+access_is_transmission_cde_manager,is.transmission.cde,model_is_transmission_cde,group_is_client_fournisseur_plastigray,1,1,1,1
+access_is_certifications_qualite,is.certifications.qualite,model_is_certifications_qualite,group_is_client_fournisseur_plastigray,1,1,1,1
+access_is_norme_certificats,is.norme.certificats,model_is_norme_certificats,group_is_client_fournisseur_plastigray,1,1,1,1
+access_is_type_contact,is.type.contact,model_is_type_contact,group_is_client_fournisseur_plastigray,1,1,1,1

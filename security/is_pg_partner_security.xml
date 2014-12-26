@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<openerp>
+<data noupdate="0">
+
+	<record model="ir.module.category" id="module_is_client_fournisseur_plastigray">
+        <field name="name">Gestion des client/fournisseur</field>
+        <field name="description">Gestion des client/fournisseur de Plastigray</field>
+        <field name="sequence">10</field>
+   </record>
+
+
+    <record id="group_is_client_fournisseur_plastigray" model="res.groups">
+        <field name="name">Gestion des client/fournisseur</field>
+        <field name="comment">Gestion des client/fournisseur de Plastigray</field>
+        <field name="category_id" ref="module_is_client_fournisseur_plastigray"/>
+        <field name="users" eval="[(4, ref('base.user_root'))]"/>
+    </record>
+
+</data>
+</openerp>
