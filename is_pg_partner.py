@@ -88,6 +88,7 @@ class is_certifications_qualite(osv.osv):
         'is_norme': fields.many2one('is.norme.certificats', u'Norme Certificat qualité', required=True),
         'is_date_validation': fields.date('Date de validation du certificat', required=True),
         'is_certificat': fields.binary('Certificat qualité'),
+        'is_certificat_ids': fields.many2many('ir.attachment', 'is_certificat_attachment_rel', 'certificat_id', 'attachment_id', u'Pièces jointes'),
         'partner_id': fields.many2one('res.partner', 'Client/Fournisseur'),
     }
 

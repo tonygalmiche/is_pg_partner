@@ -10,7 +10,7 @@ Client / Fournisseur Plastigray
     'author': 'Tony GALMICHE / Asma BOUSSELMI',
     'maintainer': 'InfoSaone',
     'website': 'http://www.infosaone.com',
-    'depends': ['base', 'is_partner', 'is_plastigray'],
+    'depends': ['base', 'document', 'is_partner', 'is_plastigray'],
     'data': ['security/is_pg_partner_security.xml',
              'security/ir.model.access.csv',
              'is_pg_partner_view.xml'],

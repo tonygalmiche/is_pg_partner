@@ -43,14 +43,15 @@
                 				<group>
                 					<field name="is_norme" />
                         			<field name="is_date_validation" />
-                        			<field name="is_certificat"/>
+                        			<!--<field name="is_certificat"/>-->
+                              <field name="is_certificat_ids"  widget="many2many_binary"/>
                         			<field name="partner_id" invisible="1"/>
                 				</group>
                 			</form>
                 			<tree string="Certification qualité">
                 				<field name="is_norme" />
                         		<field name="is_date_validation" />
-                        		<field name="is_certificat"/>
+                        		<!--<field name="is_certificat"/>-->
                         		<field name="partner_id" invisible="1"/>             					
                 			</tree>
                 		</field>
@@ -441,7 +442,7 @@
                 	<group>
             			<field name="is_norme" />
             			<field name="is_date_validation" />
-            			<field name="is_certificat" />
+            			<field name="is_certificat_ids"  widget="many2many_binary"/>
             			<field name="partner_id" invisible="1"/>
             	  	</group> 
                 </form>
